@@ -1,0 +1,103 @@
+body{
+    
+    background-image: linear-gradient(rgb(75, 3, 82),rgb(223, 134, 235));
+  
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    font-size: medium;
+  }
+
+
+.header{
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    background-color: rgb(38, 0, 255,0.05);
+  
+}
+.header a{
+   color: rgb(144, 221, 252); 
+   font-size: 5vh;
+}
+.header a:link , a:visited , a:active{
+    text-decoration: none;
+    color: rgb(144, 221, 252); 
+}
+
+.header a:hover{
+   color: red;
+}
+
+
+
+#header-link{
+    float: right;
+    font-size:3vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+ 
+}
+
+
+
+.footer{
+
+    padding: 1vh;
+    position: fixed;
+
+bottom: 0;
+width: 100%;
+background-color: rgb(245, 11, 50);
+color: white;
+text-align: center;
+}
+.footer h1{
+  color: white;
+  text-align: center;
+
+  
+}
+
+#aky{
+    right: 0;
+    bottom: 1;
+    position: absolute;
+    color: white;
+}
+
+.BodyHome{
+    margin-left: 20%;
+    margin-right: 20%;
+color: white;
+text-align: center;
+}
+
+
+#dataRow{
+    color: white;
+    font-size: 1.5rem;
+}
+#dataRow a:link , a:visited , a:active{
+    text-decoration: none;
+    color: rgb(144, 221, 252); 
+    border:aqua;
+   text-align: center;
+}
+#dataRow a:hover{
+    color: red;
+ }
+
+#dataColumns{
+    color:cyan;
+    font-size: 2rem;
+}
+#BodyHomeSub h4{
+  color: rgb(31, 5, 24);
+  border: solid;
+  border-color: cyan;
+  font-size: 2.3rem;
+}
+
