@@ -9,7 +9,7 @@ function BodyAbout() {
             <img id="about-img" src={pic} />
             <div class="row icons">
             <div class="col-xs-3">
-                <a href="https://github.com/ASHISH-GITHUB2495/GRIP_BasicBankingSystem" target="_blank"><i class="fab fa-github icon"></i></a><br></br>
+                <a href="https://github.com/ASHISH-GITHUB2495/GRIP_BasicBankingSystem_2021" target="_blank"><i class="fab fa-github icon"></i></a><br></br>
                 <h2>Github</h2>
                 </div>
             <div class="col-xs-3">
