@@ -11,15 +11,14 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 
-//const dbUrl = "mongodb://127.0.0.1:27017/GRIP_practice";
-const dbUrl = "mongodb+srv://AshishYadav:24955942@cluster0.ozrpk.mongodb.net/GRIP?retryWrites=true&w=majority";
+const dbUrl = "mongodb://127.0.0.1:27017/GRIP_practice";
 
 var paths = { paths: "Home" };
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, 'client/build')));
 
 //mongoose.connect('mongodb+srv://<username>:<password>@cluster0.ozrpk.mongodb.net/<dbname>?retryWrites=true&w=majority');
-mongoose.connect(process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/GRIP_practice", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGODB_URI || dbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
 
 var dim = {
   status: "---"
